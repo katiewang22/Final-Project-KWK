@@ -314,7 +314,7 @@ What to wear:</string>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="E75-Ge-MZx" secondAttribute="height" multiplier="98:139" constant="-1348.0287769784172" id="QJh-Xf-W9t"/>
                                                 </constraints>
-                                                <mutableString key="text">Bruises require little treatment and it may be the case that you or an injured comrade simply need to rest for a while, whereas cuts should be treated with a plaster or bandage.
+                                                <string key="text">Bruises require little treatment and it may be the case that you or an injured comrade simply need to rest for a while, whereas cuts should be treated with a plaster or bandage.
 
 If bleeding is heavy this can be stopped by firm direct pressure on the source for 5/10 minutes. If an artery has been cut and bleeding is severe, a tourniquet will be needed for short-term management but proper medical attention must be sought if blood loss continues.
 
@@ -326,7 +326,7 @@ Head injuries have to be approached with more caution than other body parts. Fol
 
 If the person is unconscious, do not attempt to move them: this could exacerbate the injuries already sustained: seek professional medical attention.
 
-Internal injuries can occur from blows to the kidneys. These are usually accompanied by nausea, vomiting, shock, and persistent abdominal pain. Get prompt professional care.</mutableString>
+Internal injuries can occur from blows to the kidneys. These are usually accompanied by nausea, vomiting, shock, and persistent abdominal pain. Get prompt professional care.</string>
                                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="28"/>
                                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
@@ -451,39 +451,54 @@ Internal injuries can occur from blows to the kidneys. These are usually accompa
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <subviews>
                                     <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BwM-jY-IlL">
-                                        <rect key="frame" x="0.0" y="-11" width="414" height="688"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="677"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xN3-SI-e5K">
-                                                <rect key="frame" x="0.0" y="0.0" width="414" height="1000"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="414" height="863"/>
                                                 <subviews>
-                                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zfg-C2-2dd">
-                                                        <rect key="frame" x="42" y="36" width="331" height="170"/>
-                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zfg-C2-2dd">
+                                                        <rect key="frame" x="101" y="36" width="212" height="207"/>
                                                         <color key="backgroundColor" red="1" green="0.73707969470000001" blue="0.826852437" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" secondItem="zfg-C2-2dd" secondAttribute="height" multiplier="212:207" id="0iy-bC-4PQ"/>
+                                                        </constraints>
                                                         <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                        <state key="normal" title="[Insert image here]"/>
+                                                        <state key="normal" backgroundImage="Volunteer 3"/>
                                                         <connections>
                                                             <segue destination="GuD-xE-Daq" kind="show" id="WRW-hx-XQr"/>
                                                         </connections>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uWv-MN-AzN">
-                                                        <rect key="frame" x="42" y="320" width="331" height="170"/>
-                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uWv-MN-AzN">
+                                                        <rect key="frame" x="90" y="324" width="235" height="219"/>
                                                         <color key="backgroundColor" red="1" green="0.73707969470000001" blue="0.826852437" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" secondItem="uWv-MN-AzN" secondAttribute="height" multiplier="235:219" id="Zt1-u4-b4h"/>
+                                                        </constraints>
                                                         <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                        <state key="normal" title="[Insert image here]"/>
+                                                        <state key="normal" backgroundImage="Volunteer 2"/>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6oM-jA-VzI">
-                                                        <rect key="frame" x="42" y="606" width="331" height="170"/>
-                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6oM-jA-VzI">
+                                                        <rect key="frame" x="46" y="603" width="323" height="260"/>
                                                         <color key="backgroundColor" red="1" green="0.73707969470000001" blue="0.826852437" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" secondItem="6oM-jA-VzI" secondAttribute="height" multiplier="331:170" constant="-183.23529411764707" id="fxH-vE-bIZ"/>
+                                                        </constraints>
                                                         <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                        <state key="normal" title="[Insert image here]"/>
+                                                        <state key="normal" backgroundImage="Volunteer 1"/>
                                                     </button>
                                                 </subviews>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="1000" id="mc3-bb-eRy"/>
+                                                    <constraint firstAttribute="bottom" secondItem="6oM-jA-VzI" secondAttribute="bottom" id="61Y-n6-MiH"/>
+                                                    <constraint firstItem="uWv-MN-AzN" firstAttribute="top" secondItem="zfg-C2-2dd" secondAttribute="bottom" constant="81" id="7cF-a5-eHa"/>
+                                                    <constraint firstItem="6oM-jA-VzI" firstAttribute="top" secondItem="uWv-MN-AzN" secondAttribute="bottom" constant="60" id="ICV-oo-seg"/>
+                                                    <constraint firstAttribute="trailing" secondItem="uWv-MN-AzN" secondAttribute="trailing" constant="89" id="KnB-FV-Hhp"/>
+                                                    <constraint firstItem="uWv-MN-AzN" firstAttribute="leading" secondItem="xN3-SI-e5K" secondAttribute="leading" constant="90" id="N30-vM-2KE"/>
+                                                    <constraint firstItem="6oM-jA-VzI" firstAttribute="leading" secondItem="xN3-SI-e5K" secondAttribute="leading" constant="46" id="NpP-Ds-hA8"/>
+                                                    <constraint firstItem="zfg-C2-2dd" firstAttribute="leading" secondItem="xN3-SI-e5K" secondAttribute="leading" constant="101" id="Zsg-Mn-233"/>
+                                                    <constraint firstAttribute="trailing" secondItem="zfg-C2-2dd" secondAttribute="trailing" constant="101" id="b2t-z8-I9V"/>
+                                                    <constraint firstAttribute="trailing" secondItem="6oM-jA-VzI" secondAttribute="trailing" constant="45" id="evB-uO-ief"/>
+                                                    <constraint firstItem="zfg-C2-2dd" firstAttribute="top" secondItem="xN3-SI-e5K" secondAttribute="top" constant="36" id="vzV-3x-E5j"/>
                                                 </constraints>
                                             </view>
                                         </subviews>
@@ -500,7 +515,7 @@ Internal injuries can occur from blows to the kidneys. These are usually accompa
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <constraints>
-                                    <constraint firstItem="BwM-jY-IlL" firstAttribute="top" secondItem="hT7-Mm-1F4" secondAttribute="top" constant="-11" id="Ivp-q5-xbU"/>
+                                    <constraint firstItem="BwM-jY-IlL" firstAttribute="top" secondItem="hT7-Mm-1F4" secondAttribute="top" id="Ivp-q5-xbU"/>
                                     <constraint firstItem="BwM-jY-IlL" firstAttribute="leading" secondItem="yqb-EC-bAb" secondAttribute="leading" id="Rkc-CO-91F"/>
                                     <constraint firstItem="BwM-jY-IlL" firstAttribute="bottom" secondItem="yqb-EC-bAb" secondAttribute="bottom" id="nBM-ax-GTz"/>
                                     <constraint firstItem="BwM-jY-IlL" firstAttribute="trailing" secondItem="yqb-EC-bAb" secondAttribute="trailing" id="pQx-cb-3xk"/>
@@ -521,19 +536,13 @@ Internal injuries can occur from blows to the kidneys. These are usually accompa
                                             <segue destination="BVW-S8-RhX" kind="show" id="4CB-WP-3FB"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fTc-Fc-XMS">
-                                        <rect key="frame" x="346" y="10" width="49" height="41"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="tintColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
-                                        <state key="normal" backgroundImage="plus" catalog="system"/>
-                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.97726088759999996" green="0.48604899639999999" blue="0.53053748609999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="4ha-az-IkJ" secondAttribute="height" multiplier="418:65" constant="-4" id="1tv-VQ-iHG"/>
                                 </constraints>
                             </view>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="   Your City " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YIZ-4z-Td3" userLabel="Your City">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="   City: Atlanta" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YIZ-4z-Td3" userLabel="Your City">
                                 <rect key="frame" x="0.0" y="60" width="414" height="63"/>
                                 <color key="backgroundColor" red="1" green="0.79551911350000004" blue="0.46661442520000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
@@ -544,21 +553,11 @@ Internal injuries can occur from blows to the kidneys. These are usually accompa
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j5w-JN-PFy">
-                                <rect key="frame" x="357" y="73" width="37" height="37"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="j5w-JN-PFy" secondAttribute="height" multiplier="37:39" id="iUm-kK-vZd"/>
-                                </constraints>
-                                <state key="normal" backgroundImage="magnifyingglass" catalog="system"/>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="YIZ-4z-Td3" firstAttribute="leading" secondItem="c0K-q3-ThX" secondAttribute="leading" id="Cmw-8T-OpO"/>
-                            <constraint firstItem="c0K-q3-ThX" firstAttribute="trailing" secondItem="j5w-JN-PFy" secondAttribute="trailing" constant="20" id="JbS-hG-745"/>
                             <constraint firstItem="4ha-az-IkJ" firstAttribute="top" secondItem="c0K-q3-ThX" secondAttribute="top" id="VPz-iK-bYp"/>
-                            <constraint firstItem="j5w-JN-PFy" firstAttribute="top" secondItem="4ha-az-IkJ" secondAttribute="bottom" constant="7" id="aEn-Sc-cua"/>
-                            <constraint firstItem="j5w-JN-PFy" firstAttribute="leading" secondItem="c0K-q3-ThX" secondAttribute="leading" constant="357" id="iiK-AE-NDZ"/>
                             <constraint firstItem="YIZ-4z-Td3" firstAttribute="trailing" secondItem="c0K-q3-ThX" secondAttribute="trailing" id="o47-Tx-Ody"/>
                             <constraint firstItem="YIZ-4z-Td3" firstAttribute="top" secondItem="c0K-q3-ThX" secondAttribute="top" constant="60" id="sjr-qF-52a"/>
                             <constraint firstAttribute="trailing" secondItem="4ha-az-IkJ" secondAttribute="trailing" id="tCl-1W-Ew9"/>
@@ -572,10 +571,10 @@ Internal injuries can occur from blows to the kidneys. These are usually accompa
             </objects>
             <point key="canvasLocation" x="-49.275362318840585" y="816.96428571428567"/>
         </scene>
-        <!--View Controller-->
+        <!--Project View Controller-->
         <scene sceneID="Qq9-R6-i4h">
             <objects>
-                <viewController id="GuD-xE-Daq" sceneMemberID="viewController">
+                <viewController id="GuD-xE-Daq" userLabel="Project View Controller" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Aff-DG-oH0">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -591,38 +590,29 @@ Internal injuries can occur from blows to the kidneys. These are usually accompa
                                 <nil key="highlightedColor"/>
                             </label>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="usB-Uz-2Ez">
-                                <rect key="frame" x="0.0" y="78" width="414" height="739"/>
+                                <rect key="frame" x="0.0" y="78" width="414" height="745"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AMg-Qv-dX2">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="739"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="745"/>
                                         <subviews>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="6so-FV-fbK">
-                                                <rect key="frame" x="-1" y="0.0" width="414" height="210.5"/>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Habitat" translatesAutoresizingMaskIntoConstraints="NO" id="6so-FV-fbK">
+                                                <rect key="frame" x="8" y="0.0" width="398" height="226"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="width" secondItem="6so-FV-fbK" secondAttribute="height" multiplier="57:29" id="cmJ-bL-i3y"/>
+                                                    <constraint firstAttribute="width" secondItem="6so-FV-fbK" secondAttribute="height" multiplier="57:29" constant="-46.206896551724128" id="cmJ-bL-i3y"/>
                                                 </constraints>
                                             </imageView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Project Title: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kWa-NY-Z54">
-                                                <rect key="frame" x="21" y="225.5" width="167" height="36"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Habitat for Humanity" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kWa-NY-Z54">
+                                                <rect key="frame" x="21" y="234" width="283" height="36"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="width" secondItem="kWa-NY-Z54" secondAttribute="height" multiplier="167:36" id="abF-CD-Uxv"/>
-                                                    <constraint firstAttribute="width" secondItem="kWa-NY-Z54" secondAttribute="height" multiplier="167:36" id="v16-KM-oCi"/>
+                                                    <constraint firstAttribute="width" secondItem="kWa-NY-Z54" secondAttribute="height" multiplier="167:36" constant="116" id="abF-CD-Uxv"/>
+                                                    <constraint firstAttribute="width" secondItem="kWa-NY-Z54" secondAttribute="height" multiplier="167:36" constant="116" id="v16-KM-oCi"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Orginization Name:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rCQ-8N-R9y">
-                                                <rect key="frame" x="21" y="268.5" width="199" height="29"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" secondItem="rCQ-8N-R9y" secondAttribute="height" multiplier="199:29" id="vog-yN-3h3"/>
-                                                </constraints>
-                                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mZL-KJ-fgk">
-                                                <rect key="frame" x="0.0" y="305.5" width="414" height="19"/>
+                                                <rect key="frame" x="0.0" y="314" width="414" height="19"/>
                                                 <color key="backgroundColor" red="1" green="0.79551911350000004" blue="0.46661442520000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="mZL-KJ-fgk" secondAttribute="height" multiplier="413:19" id="cak-yU-jc7"/>
@@ -632,7 +622,7 @@ Internal injuries can occur from blows to the kidneys. These are usually accompa
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HgJ-j6-OCT">
-                                                <rect key="frame" x="21" y="332" width="156" height="36"/>
+                                                <rect key="frame" x="21" y="340.5" width="156" height="36"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="HgJ-j6-OCT" secondAttribute="height" multiplier="13:3" id="Fb5-A4-EaR"/>
                                                 </constraints>
@@ -640,21 +630,34 @@ Internal injuries can occur from blows to the kidneys. These are usually accompa
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dates To Know:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7OZ-VS-ypA">
-                                                <rect key="frame" x="21" y="508" width="200" height="36"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v3K-uu-YfG">
-                                                <rect key="frame" x="0.0" y="617" width="414" height="28"/>
+                                                <rect key="frame" x="0.0" y="604" width="414" height="28"/>
                                                 <color key="backgroundColor" red="1" green="0.79551911350000004" blue="0.46661442520000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="28"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i1E-Yn-WTI">
+                                                <rect key="frame" x="21" y="372.5" width="365" height="224"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="i1E-Yn-WTI" secondAttribute="height" multiplier="365:224" id="VkX-Kf-rIH"/>
+                                                </constraints>
+                                                <string key="text">This non-profit organization helps Americans build houses for low income residents in the United States. This project allows people to help build affordable homes in the metro Atlanta area. Volunteer here if you have an interest in building and want to help during times of crisis. </string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="- Construction - Paint - Landscaping -" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rCQ-8N-R9y">
+                                                <rect key="frame" x="8" y="277" width="422" height="29"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="rCQ-8N-R9y" secondAttribute="height" multiplier="199:29" constant="223" id="vog-yN-3h3"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I want to help!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oKy-gL-vJB">
-                                                <rect key="frame" x="110" y="657" width="193" height="65"/>
+                                                <rect key="frame" x="111" y="657" width="193" height="65"/>
                                                 <color key="backgroundColor" red="0.1674542244647596" green="0.8486873414142132" blue="0.76199305955734797" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="oKy-gL-vJB" secondAttribute="height" multiplier="193:65" id="Vxs-uM-I4k"/>
@@ -667,29 +670,29 @@ Internal injuries can occur from blows to the kidneys. These are usually accompa
                                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                         <constraints>
                                             <constraint firstItem="v3K-uu-YfG" firstAttribute="leading" secondItem="AMg-Qv-dX2" secondAttribute="leading" id="4YQ-i1-EfA"/>
-                                            <constraint firstItem="7OZ-VS-ypA" firstAttribute="top" secondItem="HgJ-j6-OCT" secondAttribute="bottom" constant="140" id="4pm-0y-ajl"/>
-                                            <constraint firstAttribute="trailing" secondItem="6so-FV-fbK" secondAttribute="trailing" constant="1" id="7Bk-Gk-EyI"/>
-                                            <constraint firstItem="oKy-gL-vJB" firstAttribute="leading" secondItem="AMg-Qv-dX2" secondAttribute="leading" constant="110" id="8S3-vc-9FP"/>
+                                            <constraint firstAttribute="trailing" secondItem="6so-FV-fbK" secondAttribute="trailing" constant="8" id="7Bk-Gk-EyI"/>
+                                            <constraint firstItem="oKy-gL-vJB" firstAttribute="leading" secondItem="AMg-Qv-dX2" secondAttribute="leading" constant="111" id="8S3-vc-9FP"/>
+                                            <constraint firstItem="i1E-Yn-WTI" firstAttribute="leading" secondItem="AMg-Qv-dX2" secondAttribute="leading" constant="21" id="8qL-1M-dgg"/>
+                                            <constraint firstAttribute="trailing" secondItem="i1E-Yn-WTI" secondAttribute="trailing" constant="28" id="EIO-Do-LSP"/>
                                             <constraint firstItem="6so-FV-fbK" firstAttribute="top" secondItem="AMg-Qv-dX2" secondAttribute="top" id="F79-hL-sRE"/>
-                                            <constraint firstAttribute="trailing" secondItem="rCQ-8N-R9y" secondAttribute="trailing" constant="194" id="H9d-CA-YfN"/>
-                                            <constraint firstItem="kWa-NY-Z54" firstAttribute="top" secondItem="6so-FV-fbK" secondAttribute="bottom" constant="15" id="ITa-7v-hIA"/>
-                                            <constraint firstItem="7OZ-VS-ypA" firstAttribute="leading" secondItem="AMg-Qv-dX2" secondAttribute="leading" constant="21" id="Lmq-nc-E2P"/>
+                                            <constraint firstAttribute="trailing" secondItem="rCQ-8N-R9y" secondAttribute="trailing" constant="-16" id="H9d-CA-YfN"/>
+                                            <constraint firstItem="kWa-NY-Z54" firstAttribute="top" secondItem="6so-FV-fbK" secondAttribute="bottom" constant="8" id="ITa-7v-hIA"/>
                                             <constraint firstItem="HgJ-j6-OCT" firstAttribute="leading" secondItem="AMg-Qv-dX2" secondAttribute="leading" constant="21" id="Lpr-9q-6Tf"/>
                                             <constraint firstItem="HgJ-j6-OCT" firstAttribute="top" secondItem="mZL-KJ-fgk" secondAttribute="bottom" constant="7.5" id="Mvq-vB-vZB"/>
-                                            <constraint firstAttribute="trailing" secondItem="oKy-gL-vJB" secondAttribute="trailing" constant="111" id="Ng7-X3-Dp3"/>
+                                            <constraint firstAttribute="trailing" secondItem="oKy-gL-vJB" secondAttribute="trailing" constant="110" id="Ng7-X3-Dp3"/>
                                             <constraint firstItem="mZL-KJ-fgk" firstAttribute="top" secondItem="rCQ-8N-R9y" secondAttribute="bottom" constant="8" id="P1v-jF-zEm"/>
                                             <constraint firstAttribute="trailing" secondItem="mZL-KJ-fgk" secondAttribute="trailing" id="QrU-jt-4oX"/>
-                                            <constraint firstItem="6so-FV-fbK" firstAttribute="leading" secondItem="AMg-Qv-dX2" secondAttribute="leading" constant="-1" id="Sou-UJ-1BO"/>
+                                            <constraint firstItem="oKy-gL-vJB" firstAttribute="top" secondItem="v3K-uu-YfG" secondAttribute="bottom" constant="25" id="RHU-mJ-t85"/>
+                                            <constraint firstItem="6so-FV-fbK" firstAttribute="leading" secondItem="AMg-Qv-dX2" secondAttribute="leading" constant="8" id="Sou-UJ-1BO"/>
                                             <constraint firstItem="kWa-NY-Z54" firstAttribute="leading" secondItem="AMg-Qv-dX2" secondAttribute="leading" constant="21" id="Zop-DP-XbC"/>
                                             <constraint firstAttribute="trailing" secondItem="HgJ-j6-OCT" secondAttribute="trailing" constant="237" id="al6-TS-NYB"/>
                                             <constraint firstItem="mZL-KJ-fgk" firstAttribute="leading" secondItem="AMg-Qv-dX2" secondAttribute="leading" id="cBB-ST-raM"/>
-                                            <constraint firstItem="v3K-uu-YfG" firstAttribute="top" secondItem="7OZ-VS-ypA" secondAttribute="bottom" constant="73" id="fdy-0n-2G5"/>
-                                            <constraint firstAttribute="trailing" secondItem="7OZ-VS-ypA" secondAttribute="trailing" constant="193" id="jNG-J2-eyr"/>
+                                            <constraint firstAttribute="bottom" secondItem="oKy-gL-vJB" secondAttribute="bottom" constant="23" id="kmE-mx-Pna"/>
                                             <constraint firstAttribute="trailing" secondItem="v3K-uu-YfG" secondAttribute="trailing" id="rKm-Za-qEr"/>
-                                            <constraint firstItem="rCQ-8N-R9y" firstAttribute="leading" secondItem="AMg-Qv-dX2" secondAttribute="leading" constant="21" id="rea-tW-Smz"/>
+                                            <constraint firstItem="rCQ-8N-R9y" firstAttribute="leading" secondItem="AMg-Qv-dX2" secondAttribute="leading" constant="8" id="rea-tW-Smz"/>
                                             <constraint firstItem="rCQ-8N-R9y" firstAttribute="top" secondItem="kWa-NY-Z54" secondAttribute="bottom" constant="7" id="sdU-lf-pL3"/>
-                                            <constraint firstAttribute="trailing" secondItem="kWa-NY-Z54" secondAttribute="trailing" constant="226" id="yhs-MZ-3Nn"/>
-                                            <constraint firstItem="oKy-gL-vJB" firstAttribute="top" secondItem="v3K-uu-YfG" secondAttribute="bottom" constant="12" id="zSm-wt-rwm"/>
+                                            <constraint firstAttribute="trailing" secondItem="kWa-NY-Z54" secondAttribute="trailing" constant="110" id="yhs-MZ-3Nn"/>
+                                            <constraint firstItem="i1E-Yn-WTI" firstAttribute="top" secondItem="mZL-KJ-fgk" secondAttribute="bottom" constant="39.5" id="yvh-ut-njZ"/>
                                         </constraints>
                                     </view>
                                 </subviews>
@@ -711,8 +714,8 @@ Internal injuries can occur from blows to the kidneys. These are usually accompa
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="8CG-wW-7Ec" firstAttribute="leading" secondItem="ZDl-04-Ezy" secondAttribute="leading" id="0bd-NU-hLT"/>
-                            <constraint firstAttribute="bottom" secondItem="usB-Uz-2Ez" secondAttribute="bottom" constant="25" id="1ER-Qy-3ys"/>
-                            <constraint firstAttribute="bottom" secondItem="usB-Uz-2Ez" secondAttribute="bottom" constant="25" id="3L4-CV-ebH"/>
+                            <constraint firstAttribute="bottom" secondItem="usB-Uz-2Ez" secondAttribute="bottom" constant="19" id="1ER-Qy-3ys"/>
+                            <constraint firstAttribute="bottom" secondItem="usB-Uz-2Ez" secondAttribute="bottom" constant="19" id="3L4-CV-ebH"/>
                             <constraint firstItem="usB-Uz-2Ez" firstAttribute="trailing" secondItem="ZDl-04-Ezy" secondAttribute="trailing" id="6uW-PS-9ua"/>
                             <constraint firstItem="8CG-wW-7Ec" firstAttribute="top" secondItem="ZDl-04-Ezy" secondAttribute="top" id="FXM-pk-F6H"/>
                             <constraint firstItem="8CG-wW-7Ec" firstAttribute="trailing" secondItem="ZDl-04-Ezy" secondAttribute="trailing" id="G1B-h8-997"/>
@@ -841,10 +844,12 @@ Internal injuries can occur from blows to the kidneys. These are usually accompa
     <resources>
         <image name="Background" width="852" height="480"/>
         <image name="First Aid" width="142" height="138"/>
+        <image name="Habitat" width="2024" height="1159"/>
+        <image name="Volunteer 1" width="694" height="636"/>
+        <image name="Volunteer 2" width="225" height="225"/>
+        <image name="Volunteer 3" width="422" height="456"/>
         <image name="hand.raised.fill" catalog="system" width="128" height="128"/>
         <image name="house.fill" catalog="system" width="128" height="106"/>
-        <image name="magnifyingglass" catalog="system" width="128" height="115"/>
         <image name="person.fill" catalog="system" width="128" height="120"/>
-        <image name="plus" catalog="system" width="128" height="113"/>
     </resources>
 </document>
