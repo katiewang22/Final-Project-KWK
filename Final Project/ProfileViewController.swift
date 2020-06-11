@@ -9,7 +9,21 @@
 import UIKit
 
 class ProfileViewController: UIViewController {
-
+    
+    @IBOutlet weak var nameField: UITextField!
+    @IBOutlet weak var moodField: UITextField!
+    @IBOutlet weak var labelTitle: UILabel!
+    @IBOutlet weak var labelTitle2: UILabel!
+    
+    @IBAction func submitTapped(_ sender: UIButton) {
+        if let newTitle = nameField.text {
+            labelTitle.text = "My name is \(newTitle)!"
+        }
+        if let newTitle2 = moodField.text {
+            labelTitle2.text = "I'm feeling \(newTitle2.lowercased())"
+        }
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
