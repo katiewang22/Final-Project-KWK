@@ -93,7 +93,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="743"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fUP-YM-VeQ" userLabel="Content View">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="3103"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="6146"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How To: First Aid" textAlignment="center" lineBreakMode="wordWrap" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bPn-gN-9H1">
                                                 <rect key="frame" x="0.0" y="0.0" width="434" height="94.5"/>
@@ -233,10 +233,10 @@ What to wear:</string>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="40" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uFY-hg-1ue">
-                                                <rect key="frame" x="11" y="2260.5" width="392" height="240.5"/>
+                                                <rect key="frame" x="11" y="2260.5" width="392" height="240"/>
                                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="width" secondItem="uFY-hg-1ue" secondAttribute="height" multiplier="197:121" id="RsV-ux-Xr3"/>
+                                                    <constraint firstAttribute="width" secondItem="uFY-hg-1ue" secondAttribute="height" multiplier="49:30" id="rSn-aW-72q"/>
                                                 </constraints>
                                                 <string key="text">- Comfortable, protective shoes that you can run in.
 - Shatter-resistant eye protection (ie. sunglasses)
@@ -244,14 +244,89 @@ What to wear:</string>
                                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="28"/>
                                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
+                                                <string key="userLabel">- Comfortable, protective shoes that you can run in. - Shatter-resistant eye protection (ie. sunglasses) - Weather-related gear (ie. rain gear or sun hat)</string>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What to bring:" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="40" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TDP-HH-jm9">
-                                                <rect key="frame" x="87" y="2500" width="238" height="67"/>
+                                                <rect key="frame" x="87" y="2508.5" width="238" height="46"/>
                                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="width" secondItem="TDP-HH-jm9" secondAttribute="height" multiplier="377:67" constant="-139" id="ubr-Yx-1DQ"/>
+                                                    <constraint firstAttribute="width" secondItem="TDP-HH-jm9" secondAttribute="height" multiplier="119:23" id="B4R-wI-fRI"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="28"/>
+                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="40" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ETG-Xe-m7b">
+                                                <rect key="frame" x="11" y="2562.5" width="392" height="410"/>
+                                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="ETG-Xe-m7b" secondAttribute="height" multiplier="196:205" id="4YV-Ix-06e"/>
+                                                </constraints>
+                                                <string key="text">- Bottle of water
+- Energy snacks
+- A small medi-kit with bandages, plasters, tape etc.
+- Money for food + transportation
+- Watch, paper, pen for documentation of events, police brutality, and injuries
+- Inhaler, EpiPen, insulin, or other meds if applicable</string>
+                                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="28"/>
+                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What NOT to Do:" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="40" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="474-ix-NZg">
+                                                <rect key="frame" x="60" y="2980.5" width="293" height="46"/>
+                                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="474-ix-NZg" secondAttribute="height" multiplier="119:23" constant="55" id="pcr-vK-X2b"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="28"/>
+                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="40" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P02-a9-RAV" userLabel="- Don't wear things that can easily be grabbed">
+                                                <rect key="frame" x="14" y="3023" width="392" height="556"/>
+                                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="P02-a9-RAV" secondAttribute="height" multiplier="196:205" constant="-139.59024390243906" id="g7n-Kv-nOP"/>
+                                                </constraints>
+                                                <string key="text">- Don't wear things that can easily be grabbed (ie. dangly earrings or jewelry, loose hair)
+- Don't go to the demo alone, if you can help it. It is best to go with an affinity group or some friends who know you well
+- Don't forget to eat food and *drink water*
+- Don't take drugs before a demo or carry them with you
+- Don't bring any ID, if possible</string>
+                                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="28"/>
+                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Blood, Bruises, and Broken Bones" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="40" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N4z-z6-ka6">
+                                                <rect key="frame" x="41" y="3589" width="330" height="81"/>
+                                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="N4z-z6-ka6" secondAttribute="height" multiplier="293:36" constant="-329.25" id="waf-em-Jcp"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="28"/>
+                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="90" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E75-Ge-MZx" userLabel="Bruises require ittle treatment">
+                                                <rect key="frame" x="14" y="3678" width="392" height="2468"/>
+                                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="E75-Ge-MZx" secondAttribute="height" multiplier="98:139" constant="-1348.0287769784172" id="QJh-Xf-W9t"/>
+                                                </constraints>
+                                                <mutableString key="text">Bruises require little treatment and it may be the case that you or an injured comrade simply need to rest for a while, whereas cuts should be treated with a plaster or bandage.
+
+If bleeding is heavy this can be stopped by firm direct pressure on the source for 5/10 minutes. If an artery has been cut and bleeding is severe, a tourniquet will be needed for short-term management but proper medical attention must be sought if blood loss continues.
+
+Use a scarf, bandana, belt, or torn shirt sleeve and tie around the arm or leg directly over the bleeding area and tighten until the bleeding slows. Wrap the injury to protect it and get the hero to a hospital - fast. I someone has glass or metal lodged in their body DO NOT ATTEMPT to remove it: this could cause further injury and increase the risk of infection.
+
+If a limb appears to be broken or fractured, improvise a splint before moving the victim. Place a stiff backing behind the limb and wrap both with a bandage. Try to avoid moving the injured limb. This person needs to go to the hospital for an x-ray and treatment.
+
+Head injuries have to be approached with more caution than other body parts. Following a head injury, it is essential that the person has an x-ray within 24 hours. Again, bleeding can be stopped by applying direct pressure.
+
+If the person is unconscious, do not attempt to move them: this could exacerbate the injuries already sustained: seek professional medical attention.
+
+Internal injuries can occur from blows to the kidneys. These are usually accompanied by nausea, vomiting, shock, and persistent abdominal pain. Get prompt professional care.</mutableString>
+                                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="28"/>
                                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
@@ -259,45 +334,60 @@ What to wear:</string>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                         <constraints>
                                             <constraint firstItem="bPn-gN-9H1" firstAttribute="leading" secondItem="fUP-YM-VeQ" secondAttribute="leading" id="1E1-De-Iot"/>
+                                            <constraint firstItem="TDP-HH-jm9" firstAttribute="leading" secondItem="fUP-YM-VeQ" secondAttribute="leading" constant="87" id="2Oh-Eo-QDR"/>
                                             <constraint firstItem="6dS-Hk-vJz" firstAttribute="leading" secondItem="fUP-YM-VeQ" secondAttribute="leading" constant="-10" id="2Yw-Y3-bW0"/>
                                             <constraint firstItem="fC6-um-Zm9" firstAttribute="leading" secondItem="fUP-YM-VeQ" secondAttribute="leading" constant="23" id="2ZQ-lL-osz"/>
+                                            <constraint firstItem="N4z-z6-ka6" firstAttribute="leading" secondItem="fUP-YM-VeQ" secondAttribute="leading" constant="41" id="33K-y5-kPf"/>
                                             <constraint firstAttribute="trailing" secondItem="4hh-xC-2U7" secondAttribute="trailing" constant="23" id="3Ps-FL-hKi"/>
-                                            <constraint firstItem="uFY-hg-1ue" firstAttribute="top" secondItem="Jdd-K5-8io" secondAttribute="bottom" constant="7" id="4Lg-gp-6ka"/>
                                             <constraint firstItem="hPN-8E-SI8" firstAttribute="leading" secondItem="fUP-YM-VeQ" secondAttribute="leading" constant="23" id="5gm-e9-cM9"/>
                                             <constraint firstItem="Jdd-K5-8io" firstAttribute="leading" secondItem="fUP-YM-VeQ" secondAttribute="leading" constant="9" id="60B-dC-xBn"/>
+                                            <constraint firstAttribute="trailing" secondItem="E75-Ge-MZx" secondAttribute="trailing" constant="8" id="60J-tx-q3S"/>
                                             <constraint firstAttribute="trailing" secondItem="6dS-Hk-vJz" secondAttribute="trailing" constant="-10" id="6cd-lQ-iMc"/>
+                                            <constraint firstItem="ETG-Xe-m7b" firstAttribute="leading" secondItem="fUP-YM-VeQ" secondAttribute="leading" constant="11" id="7hJ-G1-7Gc"/>
+                                            <constraint firstItem="uFY-hg-1ue" firstAttribute="leading" secondItem="fUP-YM-VeQ" secondAttribute="leading" constant="11" id="7wo-rn-9ru"/>
                                             <constraint firstItem="4hh-xC-2U7" firstAttribute="leading" secondItem="fUP-YM-VeQ" secondAttribute="leading" constant="24" id="8FA-ud-erE"/>
                                             <constraint firstItem="7ii-05-qDM" firstAttribute="leading" secondItem="fUP-YM-VeQ" secondAttribute="leading" constant="23" id="9sm-Yw-cez"/>
                                             <constraint firstItem="nwE-QB-VoL" firstAttribute="leading" secondItem="fUP-YM-VeQ" secondAttribute="leading" constant="23" id="9tq-bQ-w3J"/>
+                                            <constraint firstAttribute="bottom" secondItem="P02-a9-RAV" secondAttribute="bottom" constant="2567" id="A35-2n-UCg"/>
                                             <constraint firstItem="wYH-7u-pTN" firstAttribute="leading" secondItem="fUP-YM-VeQ" secondAttribute="leading" constant="23" id="B8C-p7-6za"/>
+                                            <constraint firstAttribute="trailing" secondItem="P02-a9-RAV" secondAttribute="trailing" constant="8" id="DMX-hR-8Vo"/>
                                             <constraint firstItem="8LW-QL-Ziw" firstAttribute="leading" secondItem="fUP-YM-VeQ" secondAttribute="leading" constant="24" id="EVY-3j-R3p"/>
                                             <constraint firstItem="4hh-xC-2U7" firstAttribute="top" secondItem="7ii-05-qDM" secondAttribute="bottom" constant="-5" id="FHp-rL-50u"/>
+                                            <constraint firstAttribute="trailing" secondItem="TDP-HH-jm9" secondAttribute="trailing" constant="89" id="FnL-gr-nLI"/>
                                             <constraint firstItem="fC6-um-Zm9" firstAttribute="top" secondItem="hPN-8E-SI8" secondAttribute="bottom" constant="8" id="HP5-dh-C1j"/>
+                                            <constraint firstItem="E75-Ge-MZx" firstAttribute="top" secondItem="N4z-z6-ka6" secondAttribute="bottom" constant="8" id="Huo-nh-pPt"/>
                                             <constraint firstItem="hPN-8E-SI8" firstAttribute="top" secondItem="8LW-QL-Ziw" secondAttribute="bottom" constant="8" id="Ime-1y-56K"/>
                                             <constraint firstAttribute="trailing" secondItem="7ii-05-qDM" secondAttribute="trailing" constant="24" id="Mbe-dv-Ru1"/>
+                                            <constraint firstAttribute="trailing" secondItem="N4z-z6-ka6" secondAttribute="trailing" constant="43" id="MoK-h5-cW8"/>
                                             <constraint firstItem="8LW-QL-Ziw" firstAttribute="top" secondItem="4hh-xC-2U7" secondAttribute="bottom" constant="-11" id="MvI-jQ-LN6"/>
+                                            <constraint firstAttribute="trailing" secondItem="uFY-hg-1ue" secondAttribute="trailing" constant="11" id="N3B-s8-jJV"/>
+                                            <constraint firstItem="uFY-hg-1ue" firstAttribute="top" secondItem="Jdd-K5-8io" secondAttribute="bottom" constant="7" id="Odo-w1-IPT"/>
                                             <constraint firstAttribute="trailing" secondItem="8LW-QL-Ziw" secondAttribute="trailing" constant="24" id="PXp-Dk-z9D"/>
-                                            <constraint firstAttribute="trailing" secondItem="TDP-HH-jm9" secondAttribute="trailing" constant="89" id="RBh-wf-1zV"/>
                                             <constraint firstAttribute="trailing" secondItem="hPN-8E-SI8" secondAttribute="trailing" constant="24" id="UEi-TT-j7E"/>
+                                            <constraint firstItem="E75-Ge-MZx" firstAttribute="leading" secondItem="fUP-YM-VeQ" secondAttribute="leading" constant="14" id="W23-jJ-ble"/>
                                             <constraint firstItem="6dS-Hk-vJz" firstAttribute="top" secondItem="wYH-7u-pTN" secondAttribute="bottom" constant="17" id="W5b-dq-CwC"/>
+                                            <constraint firstItem="P02-a9-RAV" firstAttribute="leading" secondItem="fUP-YM-VeQ" secondAttribute="leading" constant="14" id="YbF-ta-vng"/>
                                             <constraint firstAttribute="trailing" secondItem="fC6-um-Zm9" secondAttribute="trailing" constant="23" id="YuF-fG-i9X"/>
+                                            <constraint firstItem="TDP-HH-jm9" firstAttribute="top" secondItem="uFY-hg-1ue" secondAttribute="bottom" constant="8" id="a8J-vE-erk"/>
                                             <constraint firstAttribute="trailing" secondItem="9UA-Ah-0g3" secondAttribute="trailing" constant="24" id="aXd-Z8-oeV"/>
                                             <constraint firstItem="Jdd-K5-8io" firstAttribute="top" secondItem="6dS-Hk-vJz" secondAttribute="bottom" constant="8" id="bCU-r5-39c"/>
-                                            <constraint firstItem="uFY-hg-1ue" firstAttribute="leading" secondItem="fUP-YM-VeQ" secondAttribute="leading" constant="11" id="d36-9t-3pJ"/>
-                                            <constraint firstAttribute="bottom" secondItem="uFY-hg-1ue" secondAttribute="bottom" constant="602" id="d9e-fz-VVw"/>
+                                            <constraint firstItem="474-ix-NZg" firstAttribute="top" secondItem="ETG-Xe-m7b" secondAttribute="bottom" constant="8" id="cC2-lh-1BP"/>
+                                            <constraint firstItem="P02-a9-RAV" firstAttribute="top" secondItem="474-ix-NZg" secondAttribute="bottom" constant="-3.5" id="cgJ-nr-P8H"/>
                                             <constraint firstAttribute="trailing" secondItem="Jdd-K5-8io" secondAttribute="trailing" constant="11" id="evy-4Y-kId"/>
+                                            <constraint firstItem="N4z-z6-ka6" firstAttribute="top" secondItem="P02-a9-RAV" secondAttribute="bottom" constant="10" id="fCp-hG-bIH"/>
                                             <constraint firstAttribute="trailing" secondItem="nwE-QB-VoL" secondAttribute="trailing" constant="24" id="fRl-IX-LOP"/>
                                             <constraint firstItem="9UA-Ah-0g3" firstAttribute="leading" secondItem="fUP-YM-VeQ" secondAttribute="leading" constant="23" id="hAY-Kt-CBG"/>
-                                            <constraint firstAttribute="trailing" secondItem="uFY-hg-1ue" secondAttribute="trailing" constant="11" id="hgb-q4-RIW"/>
                                             <constraint firstAttribute="trailing" secondItem="U6r-G0-aBh" secondAttribute="trailing" constant="23" id="kYt-on-RRy"/>
                                             <constraint firstItem="bPn-gN-9H1" firstAttribute="top" secondItem="fUP-YM-VeQ" secondAttribute="top" id="kbp-NJ-0n1"/>
+                                            <constraint firstAttribute="trailing" secondItem="ETG-Xe-m7b" secondAttribute="trailing" constant="11" id="krG-4t-mww"/>
+                                            <constraint firstAttribute="trailing" secondItem="474-ix-NZg" secondAttribute="trailing" constant="61" id="mR1-eS-1ny"/>
                                             <constraint firstItem="wYH-7u-pTN" firstAttribute="top" secondItem="nwE-QB-VoL" secondAttribute="bottom" constant="8" id="nM9-8N-qVZ"/>
                                             <constraint firstItem="U6r-G0-aBh" firstAttribute="leading" secondItem="fUP-YM-VeQ" secondAttribute="leading" constant="23" id="nht-Tg-tC0"/>
-                                            <constraint firstItem="TDP-HH-jm9" firstAttribute="top" secondItem="uFY-hg-1ue" secondAttribute="bottom" constant="-1" id="o7h-h1-XNw"/>
-                                            <constraint firstItem="TDP-HH-jm9" firstAttribute="leading" secondItem="fUP-YM-VeQ" secondAttribute="leading" constant="87" id="qzU-Wn-9em"/>
                                             <constraint firstAttribute="trailing" secondItem="wYH-7u-pTN" secondAttribute="trailing" constant="24" id="sZh-49-IzM"/>
+                                            <constraint firstItem="ETG-Xe-m7b" firstAttribute="top" secondItem="TDP-HH-jm9" secondAttribute="bottom" constant="8" id="sqH-4T-njy"/>
                                             <constraint firstAttribute="trailing" secondItem="bPn-gN-9H1" secondAttribute="trailing" constant="-20" id="y2d-aI-KGZ"/>
                                             <constraint firstItem="U6r-G0-aBh" firstAttribute="top" secondItem="fC6-um-Zm9" secondAttribute="bottom" constant="-21" id="yLt-DS-HxN"/>
+                                            <constraint firstItem="474-ix-NZg" firstAttribute="leading" secondItem="fUP-YM-VeQ" secondAttribute="leading" constant="60" id="ylC-3U-Vzz"/>
                                             <constraint firstItem="9UA-Ah-0g3" firstAttribute="top" secondItem="bPn-gN-9H1" secondAttribute="bottom" constant="32.5" id="zRh-qz-iiE"/>
                                             <constraint firstItem="7ii-05-qDM" firstAttribute="top" secondItem="9UA-Ah-0g3" secondAttribute="bottom" constant="-1" id="zSW-Dk-zYt"/>
                                         </constraints>
