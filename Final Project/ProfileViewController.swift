@@ -24,13 +24,8 @@ class ProfileViewController: UIViewController {
         }
     }
     
-    @IBOutlet weak var testLink: UITextView!
     override func viewDidLoad() {
-        testLink.dataDetectorTypes = UIDataDetectorTypes.link
-        testLink.isEditable = false
         super.viewDidLoad()
-
-
     }
     
 
